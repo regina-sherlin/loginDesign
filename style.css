@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600&family=Noto+Sans&family=Open+Sans:wght@400;600&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+}
+
+.container{
+    display: flex ;
+    width: 800px;
+    height: 70%;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+}
+
+.wrapper-left{
+    width: 50%;
+    height: 100%;
+}
+
+.wrapper-right{
+    width: 50%;
+    height: 100%;
+}
+.wrapper-right img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* Wrapper-left */
+.login-external{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 50px;
+    margin: 40px 10px 20px 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6373f0;
+}
+
+.email{
+    margin-bottom: 20px ;
+    width: 400px;
+    height: 50px;
+    padding: 0 50px;
+}
+
+.email input{
+   width: 100%;
+   margin-top: 5px;
+   height: 30px;
+   padding-left: 10px;
+}
+
+.password{
+    margin-bottom: 20px;
+    width: 400px;
+    height: 50px;
+    padding: 0 50px;
+}
+.password input{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.password-options{
+    padding: 0 10px;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+.password-options a{
+    text-decoration: none;
+}
+
+.login-btn{
+    width: 75%;
+    height: 35px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6373f0;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+.sign-up{
+    margin: 110px 0;
+}
+.sign-up a{
+    text-decoration: none;
+}
+
+.login-btn:active{
+    outline:none;
+    background-color: black;
+}
